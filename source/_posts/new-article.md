@@ -3,8 +3,10 @@ title: new article
 date: 2017-10-07 10:13:07
 tags:
 ---
+测试测试测试
+===========
 
-
+<!--more-->
 ``` bash
 <template>
   <div class="kyg-button" :class="classes">
