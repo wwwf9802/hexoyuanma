@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://jiawensishi.coding.me/myHexo/
+root: /myHexo
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -79,4 +79,5 @@ theme: next
 deploy:
   type: git
   repo:
-     https://git.coding.net/jiawensishi/myHexo.git
+      github: git@github.com: wwwf9802/myHexo.git,master
+#      coding: git@git.coding.net:jiawensishi/myHexo.git,master
