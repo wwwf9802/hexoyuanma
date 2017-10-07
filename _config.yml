@@ -79,5 +79,5 @@ theme: next
 deploy:
   type: git
   repo:
-      github: git@github.com: wwwf9802/myHexo.git,master
+      github: git@github.com:wwwf9802/myHexo.git,master
 #      coding: git@git.coding.net:jiawensishi/myHexo.git,master
