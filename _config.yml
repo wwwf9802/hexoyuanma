@@ -12,8 +12,10 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://jiawensishi.coding.me/myHexo/
-root: /myHexo
+url: http://www.yhn1989.cn/
+root: /
+# url: http://jiawensishi.coding.me/myHexo/
+# root: /myHexo
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 

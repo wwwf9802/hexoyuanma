@@ -1,7 +1,8 @@
 ---
 title: 搭建hexo博客
 date: 2017-10-07 22:00:38
-tags:
+tags: hexo
+categories: hexo
 ---
 
 终于有时间给自己搭建博客，总结一番~
@@ -16,7 +17,7 @@ hexo:基于node,说白了就是写好模板主题，用node生成静态页面然
 
 自己的node感觉不过关，喜欢和node有关的一切~最终选择了hexo,选择了next主题，做了一键部署，熟悉了markDownmaD语法后，发布博文也很快，感觉也蛮不错的~
 <!--more-->
-### 2.搭建流程及常用命令 ###
+#### 2.搭建流程及常用命令 ####
 安装node环境
 新建myHexo文件夹
 全局安装hex-cli，hexo,
