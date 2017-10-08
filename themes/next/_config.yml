@@ -32,7 +32,7 @@ keywords: "Hexo, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 footer:
   # Specify the date when the site was setup.
@@ -381,10 +381,6 @@ valine:
 # You can get your uid from http://www.uyan.cc
 #youyan_uid: your uid
 
-# Support for LiveRe comments system.
-# You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
-
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
@@ -407,7 +403,9 @@ gitment:
 # Warning: Baidu Share does not support https.
 #baidushare:
 ##  type: button
-
+# Support for LiveRe comments system.
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+livere_uid: MTAyMC8zMTI0Mi83Nzkx
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
@@ -584,7 +582,7 @@ local_search:
   enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
-  trigger: manual
+  trigger: auto
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
 

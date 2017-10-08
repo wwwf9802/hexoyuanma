@@ -73,13 +73,26 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-
+#local-serch
 search:
   path: search.xml
   field: post
   format: html
   limit: 10000
-
+# rss订阅
+# feed
+# Extensions
+## Plugins: http://hexo.io/plugins/
+#RSS订阅
+# Extensions
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+#Feed Atom
+feed: 
+  type: atom
+  path: atom.xml
+  limit: 20
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
